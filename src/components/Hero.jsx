@@ -11,7 +11,9 @@ const Hero = () => {
         <img 
           alt="Vibrant abstract gradient" 
           className="w-full h-full object-cover" 
-          src="https://images.unsplash.com/photo-1776009009253-759b31cd3908?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          // src="https://images.unsplash.com/photo-1776009009253-759b31cd3908?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="https://media.licdn.com/dms/image/v2/D5622AQHycHm6rVqHfA/feedshare-shrink_800/B56Zp074e3HQAg-/0/1762898447596?e=2147483647&v=beta&t=v0MvMp6EoZuV2k_oRCxVS6Adouw_UUPATZDoveK3kU4"
+          // src="https://media.licdn.com/dms/image/v2/D5610AQGSDLSDZTZVdQ/image-shrink_800/image-shrink_800/0/1713951683416?e=2147483647&v=beta&t=D1OCo5ANrm5TrIuQ3XsEjtPh1XNGLdP0m30FGjYI7hQ"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
       </div>
