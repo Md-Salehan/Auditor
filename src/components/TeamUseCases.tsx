@@ -2,20 +2,20 @@
 import { useState } from 'react';
 
 const TeamUseCases = () => {
-  const [activeTab, setActiveTab] = useState('Strategy');
-  const tabs = ['Strategy', 'Marketing', 'Design', 'Sales'];
+  const [activeTab, setActiveTab] = useState('Engineering');
+  const tabs = ['Engineering', 'QA', 'Design', 'Product', 'Legal'];
   
   const allUseCases = [
-    { title: 'Campaign Briefs', description: 'Generate comprehensive briefs aligned with brand strategy.', image: 'https://images.unsplash.com/photo-1614852207233-e8d771f8e9fc?q=80&w=2070&auto=format&fit=crop' },
-    { title: 'Social Assets', description: 'Ensure visual consistency across all channels.', image: 'https://images.unsplash.com/photo-1645811791249-93a1e10d0169?q=80&w=869&auto=format&fit=crop' },
-    { title: 'Sales Decks', description: 'Empower reps with up-to-date, on-brand messaging.', image: 'https://images.unsplash.com/photo-1774420073915-96cc5e3abdb7?q=80&w=2021&auto=format&fit=crop' },
-    { title: 'Voice Guidelines', description: 'Codify your brand\'s unique tone and terminology.', image: 'https://images.unsplash.com/photo-1770791779732-7d1ef12524f2?q=80&w=2021&auto=format&fit=crop' }
+    { title: 'Fix while coding', description: 'Enable devs to catch issues in the IDE without jumping between tools.', image: 'https://images.unsplash.com/photo-1614852207233-e8d771f8e9fc?q=80&w=2070&auto=format&fit=crop' },
+    { title: 'Automated Testing', description: 'Find and fix up to 80% of issues across web, mobile, and component libraries.', image: 'https://images.unsplash.com/photo-1645811791249-93a1e10d0169?q=80&w=869&auto=format&fit=crop' },
+    { title: 'Manual Testing Guides', description: 'Guided workflows for QA teams to catch what automation misses.', image: 'https://images.unsplash.com/photo-1774420073915-96cc5e3abdb7?q=80&w=2021&auto=format&fit=crop' },
+    { title: 'Compliance Monitoring', description: 'Track and report on site-wide compliance status in real time.', image: 'https://images.unsplash.com/photo-1770791779732-7d1ef12524f2?q=80&w=2021&auto=format&fit=crop' }
   ];
 
   return (
     <section className="py-[160px] px-margin max-w-[1728px] mx-auto flex flex-col items-center bg-page-bg">
-      <h2 className="font-display text-h2 mb-12 font-bold tracking-tight text-center text-text">
-        Built for every team.
+      <h2 className="font-display text-6xl mb-12 font-bold tracking-tight text-center text-text ">
+        Built for every role in your org.
       </h2>
       <div className="flex flex-wrap justify-center gap-3 mb-16">
         {tabs.map((tab) => (

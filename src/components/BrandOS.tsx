@@ -21,7 +21,7 @@ const BrandOS = () => {
                     folder
                   </span>
                   <span className="font-body-md text-body-md font-medium text-text">
-                    Lumio_Strategy
+                    WCAG_2.2_Reports
                   </span>
                 </div>
                 <div className="flex items-center gap-4 p-3 hover:bg-soft-card rounded-xl transition-colors">
@@ -29,7 +29,7 @@ const BrandOS = () => {
                     description
                   </span>
                   <span className="font-body-md text-body-md font-medium text-text">
-                    BrandBook_v2
+                    VPAT_Documentation
                   </span>
                 </div>
                 <div className="flex items-center gap-4 p-3 hover:bg-soft-card rounded-xl transition-colors">
@@ -37,7 +37,7 @@ const BrandOS = () => {
                     image
                   </span>
                   <span className="font-body-md text-body-md font-medium text-text">
-                    Campaign_Assets
+                    Audit_History_Q4
                   </span>
                 </div>
                 <div className="flex items-center gap-4 p-3 hover:bg-soft-card rounded-xl transition-colors">
@@ -45,7 +45,7 @@ const BrandOS = () => {
                     analytics
                   </span>
                   <span className="font-body-md text-body-md font-medium text-text">
-                    Q3_Performance
+                    Remediation_Tracker
                   </span>
                 </div>
               </div>
@@ -56,35 +56,32 @@ const BrandOS = () => {
             <h3 className="font-display text-4xl mb-12 font-bold tracking-tight text-text">
               The intelligent foundation
               <br />
-              for your brand.
+              for accessibility 
             </h3>
             <div className="relative pl-8 border-l-[3px] border-line space-y-12">
               <div className="absolute left-[-3px] top-0 w-[3px] h-1/3 bg-gradient-to-b from-[#FF416C] to-[#FF4B2B]"></div>
               <div>
                 <h4 className="font-h3 text-h3 text-xl font-bold mb-3 text-text">
-                  Centralized Knowledge
+                  Centralized Compliance
                 </h4>
                 <p className="font-body-md text-body-md text-muted leading-relaxed">
-                  Bring all your disparate assets, guidelines, and strategic
-                  documents into one cohesive, searchable environment.
+                  Bring all your accessibility audits, VPATs, and remediation tickets into one searchable, auditable environment.
                 </p>
               </div>
               <div className="opacity-50 hover:opacity-100 transition-opacity">
                 <h4 className="font-h3 text-h3 text-xl font-bold mb-3 text-text">
-                  Contextual Intelligence
+                  AI-Powered Detection
                 </h4>
                 <p className="font-body-md text-body-md text-muted leading-relaxed">
-                  Our AI understands the nuances of your brand, providing
-                  contextual recommendations and surfacing relevant assets.
+                  Our engine finds up to 80% of issues automatically, with zero false positives, so you can fix what matters.
                 </p>
               </div>
               <div className="opacity-50 hover:opacity-100 transition-opacity">
                 <h4 className="font-h3 text-h3 text-xl font-bold mb-3 text-text">
-                  Seamless Distribution
+                  Role-Based Reporting
                 </h4>
                 <p className="font-body-md text-body-md text-muted leading-relaxed">
-                  Ensure every team member and external partner has access to
-                  the latest, approved brand materials instantly.
+                  Ensure every team—from devs to legal—has access to the exact compliance data they need.
                 </p>
               </div>
             </div>
@@ -96,46 +93,42 @@ const BrandOS = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-[100px] items-center">
           <div className="flex flex-col justify-center h-full order-2 lg:order-1">
             <h3 className="font-display text-4xl mb-12 font-bold tracking-tight text-text">
-              Generate on-brand
+              Generate accessible
               <br />
-              assets in seconds.
+              code in seconds.
             </h3>
             <div className="relative pl-8 border-l-[3px] border-line space-y-10">
               <div className="absolute left-[-3px] top-0 w-[3px] h-1/4 bg-gradient-to-b from-[#FF416C] to-[#FF4B2B]"></div>
               <div>
                 <h4 className="font-h3 text-xl font-bold mb-2 text-text">
-                  Automated Brand Alignment
+                  	Automated Code Fixes
                 </h4>
                 <p className="font-body-md text-muted leading-relaxed">
-                  Every asset generated is instantly vetted against your core
-                  brand identity.
+                  Every snippet generated is instantly vetted against WCAG 2.2 AA standards.
                 </p>
               </div>
               <div className="opacity-60 hover:opacity-100 transition-opacity">
                 <h4 className="font-h3 text-xl font-bold mb-2 text-text">
-                  Contextual Layouts
+                  Framework-Aware
                 </h4>
                 <p className="font-body-md text-muted leading-relaxed">
-                  Intelligence that understands the medium, whether it's social,
-                  print, or digital.
+                  Intelligence that understands React, Vue, Angular, and native mobile components.
                 </p>
               </div>
               <div className="opacity-60 hover:opacity-100 transition-opacity">
                 <h4 className="font-h3 text-xl font-bold mb-2 text-text">
-                  Multi-Channel Distribution
+                  Cross-Platform Sync
                 </h4>
                 <p className="font-body-md text-muted leading-relaxed">
-                  Sync and deploy approved creative across all platforms
-                  simultaneously.
+                  Deploy accessible patterns across web, mobile, and PDFs simultaneously.
                 </p>
               </div>
               <div className="opacity-60 hover:opacity-100 transition-opacity">
                 <h4 className="font-h3 text-xl font-bold mb-2 text-text">
-                  Predictive Analytics
+                  Risk Prediction
                 </h4>
                 <p className="font-body-md text-muted leading-relaxed">
-                  Gain insights into how your visual assets will perform before
-                  they go live.
+                  Gain insights into which pages have the highest likelihood of failure before you audit.
                 </p>
               </div>
             </div>
@@ -146,17 +139,16 @@ const BrandOS = () => {
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-[24px] h-[24px] rounded-full border border-black flex items-center justify-center shrink-0">
                   <span className="text-black font-bold text-[10px] leading-none">
-                    L
+                    A
                   </span>
                 </div>
                 <span className="font-label text-xs font-bold text-muted">
-                  LUMIO STUDIO
+                  ACCESSIBILITY STUDIO
                 </span>
               </div>
               <div className="bg-white/60 backdrop-blur-md rounded-xl p-4 mb-6 border border-white/50 shadow-sm">
                 <p className="font-body-md text-text">
-                  Draft a product announcement email for the new 'Pro' tier,
-                  adopting our confident but approachable tone.
+                  Generate an accessible HTML button with aria-label, keyboard focus state, and proper contrast ratio for a 'Submit' action on a dark background.
                 </p>
               </div>
               <div className="flex justify-end">

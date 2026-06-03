@@ -3,21 +3,21 @@
 const Updates = () => {
   const updates = [
     {
-      title: 'Introducing Lumio Studio Analytics',
-      date: 'Oct 12',
-      category: 'Product Update',
+      title: '	The EAA Compliance Blueprint — Prepare for the European Accessibility Act deadline.',
+      date: 'Nov 15',
+      category: 'Guide',
       image: 'https://images.unsplash.com/photo-1615714259003-5db15f3cf5f5?q=80&w=987&auto=format&fit=crop'
     },
     {
-      title: 'The Modern Brand Architecture',
-      date: 'Oct 08',
-      category: 'Insights',
+      title: 'Forrester Wave™: Digital Accessibility Platforms — Deque named a Leader, Q4 2025.',
+      date: 'Oct 28',
+      category: 'Report',
       image: 'https://images.unsplash.com/photo-1646388286080-62887d1b34ab?q=80&w=987&auto=format&fit=crop'
     },
     {
-      title: 'Lumio raises Series B to expand AI',
-      date: 'Sep 24',
-      category: 'News',
+      title: "Axe-con 2026 — Register for the world's largest free virtual accessibility conference.",
+      date: 'Sep 30',
+      category: 'Event',
       image: 'https://images.unsplash.com/photo-1615714259121-c9870fd23fcd?q=80&w=2070&auto=format&fit=crop'
     }
   ];
@@ -25,9 +25,9 @@ const Updates = () => {
   return (
     <section className="py-[120px] px-margin max-w-[1728px] mx-auto bg-page-bg">
       <div className="flex justify-between items-end mb-12">
-        <h2 className="font-display text-h2 font-bold tracking-tight text-text">Latest Updates</h2>
+        <h2 className="font-display text-4xl font-bold tracking-tight text-text">Latest Resources</h2>
         <button className="font-label text-sm font-bold border-b border-black text-text pb-1 hover:text-[#FF416C] hover:border-[#FF416C] transition-colors">
-          View All
+          Browse Resource Library
         </button>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

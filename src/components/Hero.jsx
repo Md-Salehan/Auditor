@@ -15,7 +15,7 @@ const Hero = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
       </div>
-      <h3 className="font-display text-display font-bold text-3xl max-w-3/5 mt-md text-text tracking-tighter">
+      <h3 className="font-display text-display font-bold text-3xl max-w-3/5 mt-md text-muted tracking-tighter">
         Advance digital accessibility with our AI-powered platform and unmatched expertise. From automated testing to expert audits, we help you achieve and maintain compliance.
       </h3>
     </section>
